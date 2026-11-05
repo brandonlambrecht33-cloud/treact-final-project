@@ -1244,7 +1244,7 @@ footer {
 }
 
 .footer__bottom {
-    width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1335,59 +1335,59 @@ MOBILE RESPONSIVENESS ↓
 }
 
 .steps__grid {
-    height: 5rem;
-    width: 5rem;
-    bottom: -50px;
+  height: 5rem;
+  width: 5rem;
+  bottom: -50px;
 }
 
 h1 {
-    font-size: 36px;
-    color: #1a202c;
-    line-height: 1.25;
+  font-size: 36px;
+  color: #1a202c;
+  line-height: 1.25;
 }
 
 .header__description--para {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .header__description--para {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .header__customers {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .header__img--wrapper {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header__img {
-    max-width: 512px;
+  max-width: 512px;
 }
 
 .plan__button {
-    max-width: none;
+  max-width: none;
 }
 
 .plan__bottom {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .testimonials__img {
-    width: 40%;
+  width: 40%;
 }
 
 .testimonials__description {
-    width: calc(100% - 40%);
+  width: calc(100% - 40%);
 }
 
 @media (max-width: 1024px) {
-    .nav__links {
-        display: none;
-    }
+  .nav__links {
+    display: none;
+  }
 
   .btn__menu {
     display: block;
@@ -1475,49 +1475,49 @@ h1 {
   .plans {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.plan {
+  .plan {
     margin-right: 0px;
-}
+  }
 
-#features .section__title,
-#pricing .section__title {
+  #features .section__title,
+  #pricing .section__title {
     font-size: 48px;
-}
+  }
 
-#testimonials .container {
+  #testimonials .container {
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
+  }
 
-.testimonials__description {
+  .testimonials__description {
     padding-left: 48px;
-}
+  }
 
-#start .container {
+  #start .container {
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
+  }
 
-.start__row {
+  .start__row {
     flex-direction: column;
-}
+  }
 
-.start__title {
+  .start__title {
     text-align: center;
     width: 100%;
     max-width: 512px;
-}
+  }
 
-.start__buttons {
+  .start__buttons {
     width: auto;
     margin-top: 24px;
-}
+  }
 
-.start__button {
+  .start__button {
     padding: 16px 32px;
-}
+  }
 
   footer {
     padding: 80px 32px;
@@ -1525,21 +1525,20 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    .features {
-        justify-content: center;
-    }
+  .features {
+    justify-content: center;
+  }
 
-    .feature {
-        width: auto;
-        max-width: 384px;
-    }
+  .feature {
+    width: auto;
+    max-width: 384px;
+  }
 
-    .section__para {
-        font-size: 14px;
-    }
+  .section__para {
+    font-size: 14px;
+  }
 
-
-    #quality .row,
+  #quality .row,
   #values .row {
     flex-direction: column-reverse;
   }
@@ -1564,7 +1563,6 @@ h1 {
     width: 100%;
     max-width: 448px;
   }
-
 
   #steps .row,
   #testimonials .row {
@@ -1591,10 +1589,10 @@ h1 {
     margin-right: 0px;
   }
 
-.value {
+  .value {
     margin-right: 0px;
     align-items: center;
-}
+  }
 
   #pricing .row {
     margin-top: 40px;
@@ -1629,15 +1627,12 @@ h1 {
   .footer__social--link:first-child {
     margin-left: 0px;
   }
-
 }
 
-
-
 @media (max-width: 640px) {
-    .section__title {
-        line-height: 1.25;
-    }
+  .section__title {
+    line-height: 1.25;
+  }
 
   .container {
     padding: 80px 0;
@@ -1669,7 +1664,7 @@ h1 {
 
   .header__customers--title {
     font-size: 14px;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
   }
 
   .section__title {
@@ -1688,7 +1683,7 @@ h1 {
   }
 
   .feature__title {
-    letter-spacing: .025em;
+    letter-spacing: 0.025em;
     line-height: 1;
   }
 
@@ -1776,7 +1771,7 @@ h1 {
     margin-top: 16px;
   }
 
-   main {
+  main {
     margin-bottom: 80px;
   }
 
@@ -1786,7 +1781,7 @@ h1 {
 
   .footer__column {
     width: auto;
-    padding:  0 16px;
+    padding: 0 16px;
     text-align: center;
     align-items: center;
   }
