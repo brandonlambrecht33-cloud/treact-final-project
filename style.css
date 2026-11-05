@@ -429,7 +429,6 @@ FEATURES ↓
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
-    gap: 10px;
 }
 
 .feature {
@@ -439,7 +438,7 @@ FEATURES ↓
 .feature__row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 32px 24px;
+    padding: 32px 24px;
 }
 
 .feature__img--wrapper {
@@ -496,6 +495,31 @@ QUALITY WORK ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#quality .section__title {
+    line-height: 1.25;
+}
+
+#quality .btn {
+    margin-top: 32px;
+}
+
+.quality__description {
+    max-width: 576px;
+    margin-right: 64px;
+}
+
+.quality__description,
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img--wrapper {
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    margin: 0 56px;
+    display: flex;
 }
 
 
